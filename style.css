@@ -1,0 +1,371 @@
+
+/*mobile @media only screen and (min-width): 360px*/
+*{
+    font-family: "Century Gothic";
+}
+
+body{
+    background-image: url("icons/background.jpg");
+	background-size: cover;
+}
+.API-title{ 
+	color: #FFF;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	top: 50px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.textbox{
+	position: relative;
+	top: 100px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.textbox p{
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    color: #293251;
+}
+
+.title-textbox{ 	
+	width: 500px;
+    height: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title-textbox p{
+	text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    color: #293251;
+}
+
+.text-container{
+	width: 500px;
+    height: 320px;
+    background-color: #F4F9FF;
+}
+.text-container p{
+	padding-left: 40px;
+}
+
+.app-title{
+    width: 500px;
+    height: 65px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.8em;
+    margin: 0;
+    text-align: center;
+    padding: 0px 0;
+}
+
+.weather-container{
+    width: 500px;
+    height: 320px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 500px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 500px;
+    height:90px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+:root {
+    --box-shadow-color: #9c9c9c;
+}
+
+section {
+    display: flex;
+	color: white;
+    align-items: center;
+    flex-direction: column;
+	padding: 100px;
+}
+
+section .searchForm h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 0px 0px;
+    margin: 40px 0px 15px 0px;
+    font-weight: 500;
+	color: #FFF;
+}
+section .searchForm p{
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+section .searchForm input[type=search] {
+    min-width: 400px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    background-color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 2px 2px 8px var(--box-shadow-color);
+    transition: box-shadow 0.5s;
+}
+
+section .searchForm input[type=search]:hover {
+    box-shadow: 5px 5px 10px var(--box-shadow-color);
+}
+
+section .searchForm input[type=search]:focus {
+    box-shadow: 5px 5px 10px var(--box-shadow-color);
+}
+
+section .searchForm input[type=button] {
+    margin: 0px 20px;
+    padding: 15px 40px;
+    background-color: #FFF;
+    color: #293251;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+}
+
+section .searchForm input[type=button]:hover {
+    box-shadow: 5px 5px 15px #aaa;
+    background-color: #F4F9FF;
+}
+
+section .searchForm input[type=reset] {
+    margin: 0px 0px;
+    padding: 15px 40px;
+    background-color: #F4F9FF;
+    color: #293251;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+}
+
+section .searchForm input[type=reset]:hover {
+    box-shadow: 5px 5px 15px #aaa;
+    background-color: #F4F9FF;
+}
+
+section .searchResult {
+    visibility: hidden;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 10px 400px;
+}
+
+section .searchResult div h1 {
+   font-size: 35px;
+}
+
+section .searchResult div p {
+    font-size: 28px;
+}
+
+@media only screen and (min-width: 768px) { 
+
+section .searchForm input[type=search] {
+    min-width: 420px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    background-color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 2px 2px 8px var(--box-shadow-color);
+    transition: box-shadow 0.5s;
+}
+
+}
+
+@media only screen and (min-width: 1366px) {
+
+.container{
+	float:left;
+	left: 150px;
+	top: 50px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+.textbox{
+	position: relative;
+	left: 250px;
+	top: 50px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+.title-textbox p{
+	text-align: center;
+}
+
+section .searchForm input[type=search] {
+    min-width: 800px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    background-color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 22px;
+    box-shadow: 2px 2px 8px var(--box-shadow-color);
+    transition: box-shadow 0.5s;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+	
+.container{
+	float:left;
+	left: 350px;
+	top: 50px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+.textbox{
+	position: relative;
+	left: 350px;
+	top: 50px;
+    width: 500px;    
+	height: 400px;
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto; 
+	
+    border-radius: 10px;
+    padding-bottom : 50px;
+}	
+
+section .searchForm input[type=search] {
+    min-width: 900px;
+}
+}
+
+ 
